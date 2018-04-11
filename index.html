@@ -25,8 +25,6 @@
             }
             var randomColorInteger = Math.floor(Math.random()*(mainColors.length));
             target = randomColorInteger;
-            /*вот этот алерт ниже дает тебе выбранный цвет в качестве ответа вначале. соотвтетсвенно если подсказка не нужна, то удаи его нахуй*/
-            alert(mainColors[target]);
 
             while(!gameOver) {
                 guess_input_text = prompt("Я задумал один из этих цветов: \n\n" + mainColors +
